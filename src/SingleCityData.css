@@ -1,0 +1,17 @@
+.singleCityData {
+    width: 25%;
+    border: 1px solid black;
+}
+
+@media all and (max-width: 768px){
+    .singleCityData {
+        width: 50%;
+    }
+}
+
+
+@media all and (max-width: 576px){
+    .singleCityData {
+        width: 100%;
+    }
+}
